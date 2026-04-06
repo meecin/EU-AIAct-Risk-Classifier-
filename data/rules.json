@@ -1,0 +1,30 @@
+{
+  "prohibited": [
+    {
+      "name": "emotion_recognition_workplace",
+      "conditions": {
+        "emotion_recognition": true,
+        "context": "workplace"
+      },
+      "legal_basis": "AI Act Art. 5"
+    }
+  ],
+  "high_risk": [
+    {
+      "name": "recruitment_ai",
+      "conditions": {
+        "domain": "employment",
+        "decision_support": true
+      },
+      "legal_basis": "AI Act Art. 6 + Annex III"
+    },
+    {
+      "name": "credit_scoring",
+      "conditions": {
+        "domain": "finance",
+        "affects_access_to_services": true
+      },
+      "legal_basis": "AI Act Annex III"
+    }
+  ]
+}
